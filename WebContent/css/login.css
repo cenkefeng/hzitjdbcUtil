@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /*background: url(../images/2015071047993141.jpg) no-repeat;*/
+    background: url(../images/2015071356476393.jpg) no-repeat;
+  /*  background: url(../images/2016032039938149.jpg) no-repeat;*/
+   /* background: url(../images/2016032438175401.jpg) no-repeat;*/
+    /*background: url(../images/2016042441319561.jpg) no-repeat;*/
+    background-size: cover;
+
+}
+.content{
+    width: 100%;
+    height:700px;
+
+}
+.header{
+    position: absolute;
+    top:15%;
+    left: 8%;
+    width: 80%;
+    height: 25px;
+   text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+.lower_right{
+    position: absolute;
+    top:90%;
+    left: 25%;
+    background-color: aliceblue;
+    opacity: 0.8;
+    width: 50%;
+    height: 7%;
+}
+.lower_right li{
+    float: left;
+    width: 145px;
+    list-style: none;
+    height: 50px;
+}
+.form_name,.form_pwd,.form_login,.form_reset{
+    float:left;
+    margin:16px 12px;
+}
